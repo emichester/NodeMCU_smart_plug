@@ -1,0 +1,28 @@
+# Ignore local credentials
+secrets.h
+
+# Arduino IDE build artifacts
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.lst
+*.tmp
+*.tmp.*
+*.log
+
+# PlatformIO build artifacts
+.pio/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Optional Arduino backup files
+*.bak
+*~
